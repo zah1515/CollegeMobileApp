@@ -1,0 +1,2 @@
+Pass:
+Generated bundle file /home/user/projects/Customer/.build/Customer/.build/uploadBundle.zip

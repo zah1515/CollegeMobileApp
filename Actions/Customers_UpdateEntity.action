@@ -1,0 +1,18 @@
+{
+	"_Type": "Action.Type.ODataService.UpdateEntity",
+	"ActionResult": {
+		"_Name": "Customers_UpdateEntity"
+	},
+	"OnFailure": "/Customer/Actions/UpdateCustomerEntityFailureMessage.action",
+	"OnSuccess": "/Customer/Actions/CloseModalPage_Complete.action",
+	"ValidationRule": "/Customer/Rules/EmailValidation.js",
+	"OnSuccessLog": {
+		"Message": "",
+		"Level": "Off"
+	},
+	"Target": {
+		"Service": "/Customer/Services/SampleServiceV4.service",
+		"EntitySet": "Customers",
+		"ReadLink": "{@odata.readLink}"
+	}
+}
